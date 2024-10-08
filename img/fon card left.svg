@@ -1,0 +1,23 @@
+<svg width="505" height="604" viewBox="0 0 505 604" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_104_143)">
+<path d="M0 32C0 14.3269 14.3269 0 32 0H473C490.673 0 505 14.3269 505 32V572C505 589.673 490.673 604 473 604H32C14.3269 604 0 589.673 0 572V32Z" fill="#00BFFF" fill-opacity="0.05"/>
+<g filter="url(#filter0_f_104_143)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M647.905 653.686C642.206 684.962 587.943 692.932 559.899 714.859C539.34 730.933 522.368 748.368 504.2 766.045C480.195 789.402 468.487 820.83 434.996 836.39C397.654 853.738 349.657 871.494 305.306 858.448C260.178 845.174 252.003 796.737 215.406 771.799C179.461 747.305 124.438 743.321 94.3923 714.726C63.0757 684.923 29.2718 643 45.9713 610.549C65.0565 573.462 144.279 579.935 178.82 550.666C202.796 530.349 192.736 495.92 209.803 471.721C232.455 439.603 244.347 381.982 294.952 386.003C353.168 390.629 360.959 468.266 415.389 488.057C458.36 503.681 508.506 458.56 548.81 478.306C586.173 496.611 568.733 541.084 585.999 571.642C602.431 600.723 653.315 624.001 647.905 653.686Z" fill="#79CAF8" fill-opacity="0.5"/>
+</g>
+</g>
+<path d="M32 0.5H473C490.397 0.5 504.5 14.603 504.5 32V572C504.5 589.397 490.397 603.5 473 603.5H32C14.603 603.5 0.5 589.397 0.5 572V32C0.5 14.603 14.603 0.5 32 0.5Z" stroke="url(#paint0_linear_104_143)"/>
+<defs>
+<filter id="filter0_f_104_143" x="-198.24" y="146.011" width="1086.34" height="956.732" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="119.896" result="effect1_foregroundBlur_104_143"/>
+</filter>
+<linearGradient id="paint0_linear_104_143" x1="197" y1="-6.39336e-05" x2="-50.6362" y2="500.53" gradientUnits="userSpaceOnUse">
+<stop stop-color="#138BE1" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#138BE1" stop-opacity="0.04"/>
+</linearGradient>
+<clipPath id="clip0_104_143">
+<path d="M0 32C0 14.3269 14.3269 0 32 0H473C490.673 0 505 14.3269 505 32V572C505 589.673 490.673 604 473 604H32C14.3269 604 0 589.673 0 572V32Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

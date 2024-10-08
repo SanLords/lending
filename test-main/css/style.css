@@ -1,0 +1,600 @@
+@font-face {
+    font-family: 'TTFirstNeue';
+    src: url('../fonts/TTFirsNeue-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTFirstNeue';
+    src: url('../fonts/TTFirsNeue-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTFirstNeue';
+    src: url('../fonts/TTFirsNeue-DemiBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TTFirstNeue", sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.row {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.frame {
+    display: flex;
+}
+
+.frame a:hover {
+    font-weight: 500;
+}
+
+.frame a:hover::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: linear-gradient(to bottom, #16FF00 0%, #4DFFC9 100%);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frame a {
+    padding-right: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.frame a:first-child::after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    background-color: rgba(203, 203, 206, 1);
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.right-sider {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.chips {
+    margin-right: 60px;
+    border: 1px solid #16FF00;
+    border-radius: 23px;
+    padding: 8px 13px;
+}
+
+.authorization::after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/user.svg');
+    background-size: cover;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.row_level-2 {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    padding-right: 42px;
+}
+
+ul::after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url('../img/search.svg');
+    background-size: cover;
+    margin-left: 49px;
+    vertical-align: middle;
+}
+
+li:hover {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 548px;
+    background: linear-gradient(#6F6DCA 0%, #906DCA 100%);
+    ;
+    border-radius: 0 0 80px 80px;
+}
+
+.main img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.elips {
+    position: absolute;
+    height: 193px;
+    width: 193px;
+    right: 67px;
+    bottom: 279px;
+    background: #836ECB;
+    filter: blur(114px);
+}
+
+.bet {
+    position: absolute;
+    right: 100px;
+    top: 89px;
+    background-color: #F8F8F8;
+    border-radius: 30px;
+    max-width: 506px;
+    max-height: 230px;
+    width: 100%;
+    height: 100%;
+}
+
+.bet img {
+    position: absolute;
+    right: 17px;
+    bottom: 131px;
+    z-index: 4;
+}
+
+.title__bet h2 {
+    font-weight: 500;
+    font-size: 24px;
+    width: 266px;
+    margin: 40px auto auto 40px;
+}
+
+.text__bet {
+    display: flex;
+    align-items: baseline;
+}
+
+.text__bet h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.text__bet h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container__bet {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.container__bet p {
+    font-size: 18px;
+}
+
+.container__bet_2 {
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+
+.container__bet_2 p {
+    font-size: 18px;
+}
+
+.right-container__bet {
+    max-width: 665px;
+    padding: 40px 80px;
+    color: white;
+}
+
+.right-container__bet button {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    border-radius: 3px;
+    padding: 8px 21px;
+    background: #ffffff;
+    transition: background 0.3s;
+}
+
+.right-container__bet button:hover {
+    background: linear-gradient(#16FF00, #4DFFC9);
+}
+
+.title_right__bet h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title_right__bet p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.row_right__bet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_right__bet p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.row_right__bet h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.row_right__bet h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.row__bet {
+    display: flex;
+    align-items: baseline;
+}
+
+.right_content {
+    margin: 48px 0 50px 48px;
+    position: relative;
+}
+
+.title__right_content {
+    margin-left: 32px;
+    max-width: 818px;
+}
+
+.title__right_content h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.title__right_content p {
+    max-width: 608px;
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.row__right_content {
+    display: flex;
+    margin-left: 32px;
+}
+
+.colomn_rigth__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colomn_rigth__content:first-child {
+    margin-right: 80px;
+}
+
+.colomn_rigth__content h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.colomn_rigth__content p {
+    font-size: 18px;
+}
+
+.right_content .bet {
+    right: 80px;
+    top: 120px;
+}
+
+.elips__right_content {
+    height: 193px;
+    width: 193px;
+    border-radius: 100%;
+    background: #836ECB;
+    filter: blur(114px);
+    position: absolute;
+    top: -88px;
+    right: 0;
+}
+
+.colomn__right_content__table {
+    display: none;
+}
+
+.menu_icon {
+    display: none;
+}
+
+.logo_mobail {
+    display: none;
+}
+
+
+/* адаптив */
+
+@media (max-width: 1260px) {
+    .main .bet {
+        display: none;
+    }
+    .main img {
+        z-index: -1;
+        right: -111px;
+        bottom: -50px;
+    }
+    .main {
+        z-index: 1;
+        overflow: hidden;
+        max-height: 637px;
+        height: 100%;
+    }
+    ul::after {
+        margin-left: 0;
+    }
+    ul li {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .row_level-2 {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .logo img {
+        width: 140px;
+        height: 31px;
+    }
+    .frame {
+        font-size: 12px;
+    }
+    .chips {
+        font-size: 12px;
+        padding: 4px 9px;
+    }
+    .authorization a {
+        display: none;
+    }
+    .title_right__bet h1 {
+        font-size: 30px;
+    }
+    .title_right__bet p {
+        font-size: 14px;
+    }
+    .row_right__bet {
+        flex-direction: column;
+    }
+    .row_right__bet p {
+        font-size: 16px;
+    }
+    .row_right__bet h1 {
+        font-size: 40px;
+    }
+    .row__bet {
+        margin-bottom: 30px;
+    }
+    .right-container__bet {
+        padding: 40px 32px;
+    }
+    .right-container__bet button {
+        margin: 0;
+        font-size: 14px;
+    }
+    .title__right_content h1 {
+        font-size: 30px;
+    }
+    .title__right_content p {
+        font-size: 16px;
+    }
+    .right_content {
+        margin: 40px 0 50px 0px;
+    }
+    .colomn_rigth__content__table {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .title_rigth__content__table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .colomn_rigth__content {
+        display: none;
+    }
+    .title_rigth__content__table {
+        margin-left: 20px;
+        max-width: 189px;
+    }
+    .title_rigth__content__table h1 {
+        font-size: 16px;
+    }
+    .title_rigth__content__table p {
+        font-weight: normal;
+    }
+    .plus {
+        display: none;
+    }
+    .right_content .bet {
+        max-width: 286px;
+        max-height: 203px;
+        right: 32px;
+        top: 179px;
+        overflow: hidden;
+    }
+    .bet h2:first-child {
+        font-size: 16px;
+    }
+    .bet h1 {
+        font-size: 30px;
+    }
+    .bet p {
+        font-size: 16px;
+    }
+    .bet img {
+        width: 82px;
+        height: 85px;
+        bottom: 120px;
+    }
+    .title__bet h2 {
+        margin: 30px auto auto 30px;
+        max-width: 197px;
+    }
+    .container__bet {
+        position: static;
+        max-width: 127px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .container__bet_2 {
+        right: 24px;
+        bottom: 59px;
+    }
+    .colomn__right_content__table {
+        display: block;
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .elips {
+        display: none;
+    }
+    .left-side {
+        display: none;
+    }
+    .chips {
+        display: none;
+    }
+    .row_level-2 {
+        display: none;
+    }
+    .row {
+        padding-top: 8px;
+    }
+    .right-sider {
+        margin-right: 0;
+    }
+    .menu_icon {
+        margin: 0px 20px;
+        padding-top: 7px;
+    }
+    .title_right__bet h1 {
+        font-size: 20px;
+    }
+    .row__bet h2 {
+        font-size: 18px;
+    }
+    .row__bet h1 {
+        font-size: 30px;
+    }
+    .main img {
+        width: 460px;
+        height: 280px;
+        right: -192px;
+        bottom: -2px;
+    }
+    .main {
+        border-radius: 0 0 30px 30px;
+    }
+    .right-container__bet button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .title__right_content h1 {
+        font-size: 20px;
+    }
+    .title__right_content p {
+        font-size: 14px;
+    }
+    .colomn_rigth__content__table img {
+        width: 46px;
+    }
+    .right_content .bet {
+        position: relative;
+        right: 0;
+        top: 0;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+    .bet p {
+        font-size: 14px;
+    }
+    .bet img {
+        width: 102px;
+        height: 107px;
+        bottom: 84px;
+        right: -2px;
+    }
+    .title__bet h2 {
+        margin: 30px auto auto 20px;
+    }
+    .container__bet {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .container__bet_2 {
+        right: 41px;
+        bottom: 40px;
+    }
+    .colomn__right_content__table {
+        display: block;
+    }
+    .menu_icon {
+        display: block;
+    }
+    .logo_mobail {
+        display: block;
+    }
+}
