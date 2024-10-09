@@ -102,3 +102,9 @@ document.getElementById('form_bisnes').addEventListener('click', function() {
 document.getElementById('close_bisnes').addEventListener('click', function() {
     disableFullscreenBlock('form_bisnes_wrap');
 });
+document.getElementById('bottom_card_icon').addEventListener('click', function() {
+    enableFullscreenBlock('detail_info_card');
+});
+document.getElementById('close_detal_info').addEventListener('click', function() {
+    disableFullscreenBlock('detail_info_card');
+});

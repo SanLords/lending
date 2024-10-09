@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "TTFirstNeue";
   src: url("../fonts/TTFirsNeue-Regular.woff2") format("woff2");
@@ -57,7 +58,7 @@ ul {
 header {
   color: white;
   font-size: 14px;
-  background: #138BE1;
+  background: #138be1;
   position: fixed;
   z-index: 5;
   transform: translateY(0);
@@ -219,9 +220,10 @@ ul li:hover {
 .first_screen .first_screen__button {
   display: flex;
   gap: 1.2rem;
-  color: #138BE1;
 }
 .first_screen .first_screen__button .btn {
+  background: white;
+  color: #138be1;
   font-size: 1.6rem;
   border-radius: 1.2rem;
   border: 0.1rem solid rgba(19, 139, 225, 0.4);
@@ -243,7 +245,7 @@ ul li:hover {
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #138BE1;
+  color: #138be1;
   letter-spacing: 0.1rem;
 }
 
@@ -307,13 +309,15 @@ ul li:hover {
 .badge {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.68rem;
+  letter-spacing: 0.1rem;
   width: -moz-fit-content;
   width: fit-content;
-  background: #E2F1FB;
+  background: #e2f1fb;
   padding: 0.8rem 1.2rem;
   border-radius: 0.8rem;
   text-transform: uppercase;
-  color: #138BE1;
+  color: #138be1;
   letter-spacing: 0.1rem;
 }
 
@@ -341,7 +345,7 @@ ul li:hover {
 }
 .connect_us .slider .claster_card__slider .slider_img {
   padding: 2.9rem 4rem;
-  background: #F8F8F8;
+  background: #f8f8f8;
   border-radius: 2.4rem;
 }
 .connect_us .slider .claster_card__slider .claster_card_slider__title {
@@ -363,7 +367,7 @@ ul li:hover {
   padding-right: 3.95rem;
 }
 .connect_us .slider .claster_card__slider_disript .disript_card h2 {
-  color: #138BE1;
+  color: #138be1;
   font-size: 2.4rem;
 }
 .connect_us .slider .claster_card__slider_disript .disript_card p {
@@ -401,7 +405,7 @@ ul li:hover {
   border: none;
 }
 .advantages .advantages_title .switch nav .nav button.active {
-  color: #138BE1;
+  color: #138be1;
 }
 .advantages .advantages_title .switch .switch_icon {
   display: flex;
@@ -410,20 +414,20 @@ ul li:hover {
   height: 3.2rem;
   padding: 0.4rem;
   border-radius: 100rem;
-  background: #E8EDF2;
+  background: #e8edf2;
 }
 .advantages .advantages_title .switch .switch_icon .elis {
   transition: 0.3s;
   height: 2.4rem;
   width: 2.4rem;
   border-radius: 100%;
-  background: #E8EDF2;
+  background: #e8edf2;
 }
 .advantages .advantages_title .switch .switch_icon .elis.active {
-  background: #138BE1;
+  background: #138be1;
 }
 .advantages .button {
-  background: linear-gradient(90deg, #37CBFA 0%, #229DF5 100%);
+  background: linear-gradient(90deg, #37cbfa 0%, #229df5 100%);
   padding: 1.2rem 2.4rem;
   border-radius: 1.2rem;
   width: -moz-fit-content;
@@ -485,7 +489,7 @@ ul li:hover {
   padding: 1.6rem 2.4rem;
   border-radius: 1.2rem;
   border: 0.1rem solid rgba(19, 139, 225, 0.4);
-  color: #138BE1;
+  color: #138be1;
   font-size: 1.6rem;
   cursor: pointer;
 }
@@ -508,8 +512,8 @@ ul li:hover {
   right: 6.7rem;
   bottom: 11.9rem;
 }
-#for_company .conditions .form_client,
-#for_company .conditions .form_bisnes {
+
+.modal_page {
   display: none;
   justify-content: center;
   align-items: center;
@@ -522,8 +526,7 @@ ul li:hover {
   top: 0;
   z-index: 10;
 }
-#for_company .conditions .form_client .modal_wrapper,
-#for_company .conditions .form_bisnes .modal_wrapper {
+.modal_page .modal_wrapper {
   display: flex;
   justify-content: space-between;
   width: 80rem;
@@ -532,8 +535,7 @@ ul li:hover {
   background: white;
   border-radius: 3.5rem;
 }
-#for_company .conditions .form_client .modal_wrapper .close,
-#for_company .conditions .form_bisnes .modal_wrapper .close {
+.modal_page .modal_wrapper .close {
   cursor: pointer;
 }
 
@@ -580,8 +582,8 @@ ul li:hover {
   top: -1.2rem;
 }
 
-.btn_blue {
-  background: linear-gradient(90deg, #37CBFA 0%, #229DF5 100%);
+*.btn {
+  background: linear-gradient(90deg, #37cbfa 0%, #229df5 100%);
   border-radius: 1.2rem;
   padding: 1.2rem 2.4rem;
   width: -moz-fit-content;
@@ -595,7 +597,7 @@ ul li:hover {
   padding: 4rem;
   border-radius: 4.8rem;
   border: 1px solid;
-  border-image-source: linear-gradient(93.3deg, rgba(37, 170, 245, 0.5) -0.81%, #BDE5FC 99.37%);
+  border-image-source: linear-gradient(93.3deg, rgba(37, 170, 245, 0.5) -0.81%, #bde5fc 99.37%);
   background: url(../img/banner.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -617,7 +619,7 @@ ul li:hover {
   line-height: 24px;
   max-width: 72rem;
 }
-.relevance .btn_blue {
+.relevance .btn.blue {
   margin-bottom: 4rem;
 }
 .relevance .relevance_container_cards .title_cards {
@@ -655,6 +657,12 @@ ul li:hover {
 .relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card .title_card p {
   font-size: 1.6rem;
   line-height: 150%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4; /* Стандартное свойство */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card .bottom_content_card {
   display: flex;
@@ -667,6 +675,7 @@ ul li:hover {
   line-height: 150%;
 }
 .relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card .bottom_content_card .bottom_card_icon {
+  cursor: pointer;
   display: flex;
   padding: 1rem;
   border: 0.1rem solid rgba(28, 29, 34, 0.1215686275);
@@ -674,8 +683,9 @@ ul li:hover {
   margin-left: auto;
 }
 .relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card.more {
+  justify-content: flex-end;
   position: relative;
-  background: linear-gradient(90deg, #37CBFA 0%, #229DF5 100%);
+  background: linear-gradient(90deg, #37cbfa 0%, #229df5 100%);
 }
 .relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card.more .more_img {
   position: absolute;
@@ -691,8 +701,148 @@ ul li:hover {
   width: -moz-fit-content;
   width: fit-content;
   background: white;
+  color: black;
   border-radius: 1.2rem;
   padding: 1.2rem 2.4rem;
   font-size: 1.6rem;
   font-weight: 500;
+}
+.relevance .relevance_container_cards .relevance_wrapper_cards .relevance_card.more .btn a {
+  display: block;
+  width: 116px;
+  text-align: center;
+}
+.relevance .detail_info_card .modal_wrapper {
+  overflow: scroll;
+  position: relative;
+  flex-direction: column;
+  gap: 4rem;
+}
+.relevance .detail_info_card .modal_wrapper::-webkit-scrollbar {
+  width: 0.4rem;
+}
+.relevance .detail_info_card .modal_wrapper::-webkit-scrollbar-track {
+  background: white;
+}
+.relevance .detail_info_card .modal_wrapper::-webkit-scrollbar-thumb {
+  background: #e2e2e5;
+  border-radius: 0.6rem;
+}
+.relevance .detail_info_card .modal_wrapper .close {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .logo {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .detail_info__badge {
+  color: rgba(28, 29, 34, 0.3607843137);
+  font-size: 1.4rem;
+  line-height: 1.68rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .title {
+  margin-bottom: 2rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .title h2 {
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  margin-bottom: 1.6rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .title p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.relevance .detail_info_card .modal_wrapper .detail_info_card__description .container_badge {
+  display: flex;
+  gap: 1.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials h3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials .link_conteiner {
+  display: flex;
+  gap: 1.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials .link_conteiner .link_wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 50%;
+  border-radius: 2.4rem;
+  padding: 1.2rem 2rem 1.2rem 1.2rem;
+  box-shadow: 0px 4px 8px 0px rgba(68, 83, 113, 0.0509803922);
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1019607843);
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials .link_conteiner .link_wrapper .icon_format {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 0.8rem;
+  background: #f7e1de;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #f15742;
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials .link_conteiner .link_wrapper p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.relevance .detail_info_card .modal_wrapper .additional_materials .link_conteiner .link_wrapper .icon_download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--stroke-secondary, rgba(28, 29, 34, 0.1215686275));
+  margin-left: auto;
+}
+.relevance .detail_info_card .modal_wrapper .curator .curator_title h3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .curator .curator_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 2.4rem;
+  border: 0.1rem solid rgba(28, 29, 34, 0.1215686275);
+  padding: 1.2rem 2.4rem;
+}
+.relevance .detail_info_card .modal_wrapper .curator .curator_wrapper .curator_discript h3 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.relevance .detail_info_card .modal_wrapper .curator .curator_wrapper .curator_discript p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.relevance .detail_info_card .modal_wrapper .curator .curator_wrapper .curator_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.relevance .detail_info_card .modal_wrapper .btn_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.2rem;
+}
+.relevance .detail_info_card .modal_wrapper .btn_container .btn:first-child {
+  background: white;
+  color: #138be1;
+  border: 0.1rem solid rgba(19, 139, 225, 0.4);
 }/*# sourceMappingURL=style.css.map */
