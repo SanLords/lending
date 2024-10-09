@@ -865,3 +865,126 @@ ul {
     }
   }
 }
+.development {
+  .badge {
+    margin-bottom: 2.4rem;
+  }
+  .development_title {
+    margin-bottom: 4rem;
+    h1 {
+      font-size: 4.8rem;
+      line-height: 5.2rem;
+    }
+  }
+  .development__cars_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    &.invis {
+      display: none;
+    }
+    .card_wrapper {
+      display: flex;
+      width: calc((100% - 4rem) / 3);
+      gap: 2.4rem;
+      flex-direction: column;
+      border-radius: 3.2rem;
+      padding: 1.6rem;
+      box-shadow: 0px 4px 8px 0px #4453710d;
+      box-shadow: 0px 0px 16px 0px #4453711a;
+      .card_title {
+        h2 {
+          font-size: 2.4rem;
+          line-height: 3.2rem;
+          margin-bottom: 1.2rem;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+        }
+      }
+      .btn {
+        width: 100%;
+        text-align: center;
+        background: white;
+        color: #138be1;
+        border: 0.1rem solid #138be166;
+      }
+    }
+  }
+  .btn {
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}
+.success_stories {
+  .success_stories_title {
+    .badge {
+      margin-bottom: 2.4rem;
+    }
+    h1 {
+      font-size: 4.8rem;
+      line-height: 5.2rem;
+    }
+  }
+  .success_cards_conteinre {
+    display: flex;
+    gap: 2rem;
+    .cards_conteiner {
+      position: relative;
+      display: flex;
+      width: calc((100% - 4rem) / 3);
+      .card_wrapper {
+        width: 100%;
+      }
+      .card_wrapper__moreContent {
+        position: absolute;
+        width: 40.8rem;
+        height: 37.9rem;
+        padding: 2.4rem;
+        background: white;
+      }
+    }
+    .card_wrapper {
+      display: flex;
+      flex-direction: column;
+      width: calc((100% - 4rem) / 3);
+      height: 40rem;
+      border-radius: 3.2rem;
+      padding: 3.2rem;
+      box-shadow: 0px 4px 8px 0px #4453710d;
+      box-shadow: 0px 0px 16px 0px #4453711a;
+      .card_badge {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        color: #1c1d225c;
+        margin-bottom: 0.8rem;
+      }
+      .title {
+        margin-bottom: 2rem;
+        h3 {
+          font-size: 1.8rem;
+          line-height: 2.6rem;
+        }
+      }
+      .description {
+        h1 {
+          font-size: 4.8rem;
+          line-height: 5.2rem;
+          margin-bottom: 0.8rem;
+        }
+        h3 {
+          font-size: 1.8rem;
+          line-height: 2.6rem;
+        }
+      }
+      .badge {
+        text-transform: none;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-top: auto;
+      }
+    }
+  }
+}

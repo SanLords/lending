@@ -108,3 +108,11 @@ document.getElementById('bottom_card_icon').addEventListener('click', function()
 document.getElementById('close_detal_info').addEventListener('click', function() {
     disableFullscreenBlock('detail_info_card');
 });
+
+// выпадающий список
+
+document.getElementById('development_open_list').addEventListener('click', function() {
+    document.getElementById('invis').style.display = 'flex';
+    document.getElementById('development_open_list').style.display = 'none';
+    document.getElementById('visible').style.marginBottom = '20px';
+});
